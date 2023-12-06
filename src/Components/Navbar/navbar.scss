@@ -1,0 +1,64 @@
+.hide-overflow{
+    overflow: hidden;
+}
+
+.navbar{
+    height: 100px;
+    .logo{
+        img{
+        width: 10rem;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    }
+    .wrapper{
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 4rem;
+        height: 100%;
+
+        div{
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        img{
+            height:35px;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+@media (max-width: 740px){
+    .logo{
+        display: none;
+    }
+    .navbar{
+        .wrapper{
+            padding: .3rem;
+            justify-content: right;
+        }
+        .social{
+            gap: 12px;
+            img{
+                height: 28px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .navbar { 
+        height: 56px;
+    }
+}

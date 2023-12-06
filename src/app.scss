@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    // background: url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover;
+}
+
+:root{
+    --primary-color:#ea3f44;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.majorSection{
+    height: 100vh;
+    scroll-snap-align: start;
+    margin: auto;
+    max-width: 1366px;
+}
+
+.minorSection{    
+    width: 100vw;
+    background: url('bg.jpg') center center/cover no-repeat;
+}
+
+.secondMinorSection{
+    background: url('bg2.png') center center/cover no-repeat;
+}
+
+.ptop{
+    padding-top: 5rem;
+}
+
+@media screen and (max-width:1000px){
+    .majorSection{
+        height: initial;
+    }
+
+    html{
+        scroll-snap-type: initial;
+    }
+}
