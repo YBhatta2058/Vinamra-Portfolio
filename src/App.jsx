@@ -9,6 +9,7 @@ import Projects from "./Components/Projects/Projects";
 import bg1 from  '../public/bg.jpg'
 import bg2 from  '../public/bg2.png'
 
+
  const App = () => {
   return (
     <>
