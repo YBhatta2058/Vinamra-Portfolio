@@ -12,7 +12,7 @@ import bg2 from  '../public/bg2.png'
  const App = () => {
   return (
     <>
-      <section className="minorSection" style = {{backgroundImage:bg1}}>
+      <section className="minorSection" style = {{backgroundImage:`url(${bg1})`}}>
         <section className="majorSection">
           <Navbar />
           <Landing />
@@ -25,7 +25,7 @@ import bg2 from  '../public/bg2.png'
       <section className = "majorSection">
         <About />
       </section>
-      <section className="secondMinorSection" style = {{backgroundImage:bg2}}>
+      <section className="secondMinorSection" style = {{backgroundImage:`url(${bg2})`}}>
         <section className="majorSection">
           <Contact />
         </section>
