@@ -14,7 +14,7 @@ const About = () => {
 
                     <div className="info__section">
                     
-                        <h2>Graphics Designer</h2>
+                        <h2>Event Organizer and co founder of Utopia Ent.</h2>
                         <p>
                         I am a tech-savvy student pursuing a degree in Computer Science Engineering, with a
                      focus on graphics design and event management. As an adept graphics designer, I bring
@@ -40,7 +40,7 @@ const About = () => {
                             <div className="subject">Illustrator</div>
                             <div className="progress__bar">
 
-                            <div className="progress__line" value = "79" style = {{maxWidth: '79%'}}></div>
+                            <div className="progress__line" value = "79" style = {{maxWidth: '96%'}}></div>
                             </div>
                         </div>
 
@@ -48,12 +48,12 @@ const About = () => {
                             <div className="subject">Photoshop</div>
                             <div className="progress__bar">
 
-                            <div className="progress__line" value = "58" style = {{maxWidth: `58%`}}></div>
+                            <div className="progress__line" value = "58" style = {{maxWidth: `88%`}}></div>
                             </div>
                         </div>
 
                         <div className="skill">   
-                            <div className="subject">UI Design</div>
+                            <div className="subject">Logo Design</div>
                             <div className="progress__bar">
                             <div className="progress__line" value = "90" style = {{maxWidth: `90%`}}></div>
                             </div>
