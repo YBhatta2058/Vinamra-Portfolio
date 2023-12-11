@@ -10,12 +10,6 @@ const EventsInfo = [
         title: "Car meet 2.0",
         img: "./thecarmeet.png",
         description: `The car meet 2.0 held in Naxal, Kathmandu on September 9th was a spectacular showcase of automotive excellence. Enthusiasts and car aficionados gathered to celebrate their shared passion for impressive vehicles, creating a vibrant atmosphere. The event featured a diverse array of cars, ranging from sleek sports cars to classic vintage models, highlighting the rich tapestry of the automotive world.`
-    },
-    {
-        id: 2,
-        title: "Car meet 2.0",
-        img: "./thecarmeet.png",
-        description: `The car meet 2.0 held in Naxal, Kathmandu on September 9th was a spectacular showcase of automotive excellence. Enthusiasts and car aficionados gathered to celebrate their shared passion for impressive vehicles, creating a vibrant atmosphere. The event featured a diverse array of cars, ranging from sleek sports cars to classic vintage models, highlighting the rich tapestry of the automotive world.`
     }
 ]
 

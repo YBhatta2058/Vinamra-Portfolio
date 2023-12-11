@@ -60,7 +60,7 @@ const About = () => {
                         </div>
 
                         <div className="skill">  
-                            <div className="subject">Web designing</div>
+                            <div className="subject">Event Organizing</div>
                             <div className="progress__bar">
 
                             <div className="progress__line" value = "65" style = {{maxWidth: `65%`}}></div>
